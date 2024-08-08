@@ -23,12 +23,12 @@ object DataFrameReader {
 //    ordersDF.write.mode("overwrite").parquet("C:\\Users\\Mehul Vekariya\\Desktop\\GroceryDataAnalysis\\src\\resources\\parquet\\orders.parquet")
 //    productsDF.write.mode("overwrite").parquet("C:\\Users\\Mehul Vekariya\\Desktop\\GroceryDataAnalysis\\src\\resources\\parquet\\products.parquet")
 
-    val aislesDF = spark.read.parquet("C:\\Users\\Mehul Vekariya\\Desktop\\GroceryDataAnalysis\\src\\resources\\parquet\\aisles.parquet")
-    val departmentsDF = spark.read.parquet("C:\\Users\\Mehul Vekariya\\Desktop\\GroceryDataAnalysis\\src\\resources\\parquet\\departments.parquet")
-    val order_products_prior_DF = spark.read.parquet("C:\\Users\\Mehul Vekariya\\Desktop\\GroceryDataAnalysis\\src\\resources\\parquet\\order_products_prior.parquet")
-    val order_products_train_DF = spark.read.parquet("C:\\Users\\Mehul Vekariya\\Desktop\\GroceryDataAnalysis\\src\\resources\\parquet\\order_products_train.parquet")
-    val ordersDF = spark.read.parquet("C:\\Users\\Mehul Vekariya\\Desktop\\GroceryDataAnalysis\\src\\resources\\parquet\\orders.parquet")
-    val productsDF = spark.read.parquet("C:\\Users\\Mehul Vekariya\\Desktop\\GroceryDataAnalysis\\src\\resources\\parquet\\products.parquet")
+    val aislesDF = spark.read.parquet(Constants.aislesFilePath)
+    val departmentsDF = spark.read.parquet(Constants.departmentsFilePath)
+    val order_products_prior_DF = spark.read.parquet(Constants.order_products_priorFilePath)
+    val order_products_train_DF = spark.read.parquet(Constants.order_products_trainFilePath)
+    val ordersDF = spark.read.parquet(Constants.orders_FilePath)
+    val productsDF = spark.read.parquet(Constants.productsFilePath)
 
     println("aislesDF.count()", aislesDF.count())
     println("departmentsDF.count()", departmentsDF.count())

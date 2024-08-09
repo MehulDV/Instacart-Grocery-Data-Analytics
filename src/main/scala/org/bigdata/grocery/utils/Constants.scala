@@ -1,3 +1,5 @@
+package org.bigdata.grocery.utils
+
 object Constants {
 
   val aislesFilePath = "C:\\Users\\Mehul Vekariya\\Desktop\\GroceryDataAnalysis\\src\\resources\\parquet\\aisles.parquet"

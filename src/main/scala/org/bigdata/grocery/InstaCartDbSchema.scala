@@ -1,6 +1,7 @@
-object SchemaDefinitions {
 
-  import org.apache.spark.sql.types._
+import org.apache.spark.sql.types._
+
+class InstaCartDbSchema {
 
   val aislesSchema: StructType = StructType(Array(
     StructField("aisle_id", IntegerType, nullable = false),

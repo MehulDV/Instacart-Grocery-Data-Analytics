@@ -1,3 +1,5 @@
+package org.bigdata.grocery.schema
+
 
 import org.apache.spark.sql.types._
 

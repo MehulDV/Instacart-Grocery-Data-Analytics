@@ -12,5 +12,5 @@ libraryDependencies += "org.apache.spark" %% "spark-hive" % sparkVersion
 
 lazy val root = (project in file("."))
   .settings(
-    name := "SparkByExample"
+    name := "Grocery Data Analysis"
   )

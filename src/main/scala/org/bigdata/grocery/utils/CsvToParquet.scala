@@ -1,6 +1,7 @@
 package org.bigdata.grocery.utils
 import org.apache.spark.sql.SparkSession
 import org.apache.spark.sql.functions.{asc, col, udf}
+import org.bigdata.grocery.dataframe.Aggregation._
 import org.bigdata.grocery.utils.Constants
 
 object CsvToParquet {
@@ -10,6 +11,11 @@ object CsvToParquet {
     val spark: SparkSession = SparkSession.builder().master("local[1]")
       .appName("Grocery Data Analysis")
       .getOrCreate()
+
+//    val aislesDFWithSchema = spark.read
+//      .option("header", true)
+//      .schema(aislesSchema)
+//      .csv("C:\\Users\\Mehul Vekariya\\Desktop\\GroceryDataAnalysis\\src\\resources\\csv\\aisles.csv")
 
     //    val aislesDF = spark.read.option("header","true").csv("C:\\Users\\Mehul Vekariya\\Desktop\\GroceryDataAnalysis\\src\\resources\\csv\\aisles.csv")
     //    val departmentsDF = spark.read.option("header","true").csv("C:\\Users\\Mehul Vekariya\\Desktop\\GroceryDataAnalysis\\src\\resources\\csv\\departments.csv")

@@ -6,6 +6,8 @@
 
 This project leverages Scala and Apache Spark to perform large-scale data analytics on the Instacart grocery shopping dataset. The analysis focuses on understanding customer purchasing patterns, product associations, and reorder behaviors to help improve online grocery services.
 
+This project uses the [Instacart Online Grocery Basket Analysis Dataset](https://www.kaggle.com/datasets/yasserh/instacart-online-grocery-basket-analysis-dataset) from Kaggle, which contains detailed information about customer orders. By leveraging distributed computing, the project efficiently processes large datasets, providing actionable insights that can be used by retailers to optimize marketing strategies and improve customer satisfaction.
+
 ## Table of Contents
 
 - [Introduction](#introduction)
@@ -52,6 +54,8 @@ Instacart-Grocery-Data-Analytics/
 ## Data Modeling
 
 In Instacart Grocery data analytics project, I have implemented a dimensional model using a star schema. Transforming data from multiple CSV files into fact and dimension tables. The star schema is designed with a central fact table, fact_order_products, which stores transactional data, surrounded by dimension tables such as dim_products and dim_orders that provide contextual information. This structured design allows for efficient querying and simplifies data analysis, making it a valuable asset for gaining insights in the Instacart data project.
+
+To create below diagram I used online ER diagram website: https://dbdiagram.io
 
 <img width="1179" alt="Data_Modeling" src="https://github.com/user-attachments/assets/7c328b9d-9fb5-4b03-8294-6288295616eb">
 

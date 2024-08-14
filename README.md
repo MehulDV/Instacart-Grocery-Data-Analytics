@@ -1,4 +1,4 @@
-# Instacart Grocery Data Analytics
+# Instacart Grocery Data Analytics 🥬🍎🛒
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 ![Scala: 2.12+](https://img.shields.io/badge/Scala-2.12%2B-red.svg)

@@ -59,8 +59,6 @@ To create below diagram I used online ER diagram website: https://dbdiagram.io
 
 
 ## Acknowledgements
-
-- [Instacart](https://www.instacart.com/) for providing the dataset.
 - [Kaggle](https://www.kaggle.com/) for hosting the Instacart dataset and providing a platform for data science competitions.
 - [Apache Spark](https://spark.apache.org/) for its powerful distributed processing engine.
 - [Scala](https://www.scala-lang.org/) for providing a robust language for data engineering.

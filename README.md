@@ -15,8 +15,6 @@ This project uses the [Instacart Online Grocery Basket Analysis Dataset](https:/
 - [Project Structure](#project-structure)
 - [Data Modeling](#data-modeling)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
@@ -58,7 +56,6 @@ In Instacart Grocery data analytics project, I have implemented a dimensional mo
 To create below diagram I used online ER diagram website: https://dbdiagram.io
 
 <img width="1179" alt="Data_Modeling" src="https://github.com/user-attachments/assets/7c328b9d-9fb5-4b03-8294-6288295616eb">
-
 
 
 ## Acknowledgements

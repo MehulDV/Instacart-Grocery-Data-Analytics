@@ -11,7 +11,7 @@ This project leverages Scala and Apache Spark to perform large-scale data analyt
 - [Introduction](#introduction)
 - [Features](#features)
 - [Project Structure](#project-structure)
-- [Installation](#installation)
+- [Data Modeling](#data-modeling)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
@@ -48,6 +48,14 @@ Instacart-Grocery-Data-Analytics/
 └── LICENSE                 # License file
 
 ```
+
+## Data Modeling
+
+In Instacart Grocery data analytics project, I have implemented a dimensional model using a star schema. Transforming data from multiple CSV files into fact and dimension tables. The star schema is designed with a central fact table, fact_order_products, which stores transactional data, surrounded by dimension tables such as dim_products and dim_orders that provide contextual information. This structured design allows for efficient querying and simplifies data analysis, making it a valuable asset for gaining insights in the Instacart data project.
+
+<img width="1179" alt="Data_Modeling" src="https://github.com/user-attachments/assets/7c328b9d-9fb5-4b03-8294-6288295616eb">
+
+
 
 ## Acknowledgements
 
